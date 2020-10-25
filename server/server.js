@@ -85,7 +85,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
  *  Argument 2: A request and response and respond with something.
  */
 app.get("/", (req, res) => {
-  res.json("Hello Eugene! This is the JSON response!");
+  res.json("This is the response sent from the GET API");
 });
 
 /*
