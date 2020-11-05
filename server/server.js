@@ -91,6 +91,19 @@ app.get("/", (req, res) => {
 /*
  * This POST method is our second API.
  * (POST - Send data from the front-end to the back-end)
+<<<<<<< HEAD
+=======
+ * 
+ * -----------------------------STEP 7: Create a POST API with User Schema----------------------
+ * 
+ * (Before moving on with STEP 7, study GIT and the commands left-in the terminal below) along with
+ * Git Branching Branches in a Nutshell in the browers.
+ * Follow the diagrams to understand branching conceptually!
+ * 
+ * LAST LEFT-OFF: Monday, October 26, 2020 22:00
+ * 
+ * 
+>>>>>>> 1f372bc87fb80b179b614dce7d5f886d08a60a7d
  */
 app.post("/", (req, res) => {
   console.log(req.body.name);
